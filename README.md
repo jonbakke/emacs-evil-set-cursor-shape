@@ -23,5 +23,5 @@ I use this in my setup block, e.g.:
    (add-hook 'evil-emacs-state-entry-hook
     (lambda () "Change cursor to block"
      (interactive)
-     (send-string-to)-terminal "\033[2 q")))))
+     (send-string-to-terminal "\033[2 q")))))
 ```
